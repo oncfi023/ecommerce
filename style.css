@@ -1,0 +1,88 @@
+:root {
+    --orange:hsl(26, 100%, 55%);
+    --pale-orange:hsl(25, 100%, 94%);
+    --dark-blue:hsl(220, 13%, 13%);
+    --dark-gray-blue:hsl(219, 9%, 45%);
+    --gray-blue:hsl(220, 14%, 75%);
+    --light-gray-blue:hsl(223, 64%, 98%);
+    --white:hsl(0, 0%, 100%);
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+
+header {
+    display:flex;
+    width:85%;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-blue);
+    margin:1% auto 2% auto;
+    padding-bottom:2%;
+}
+
+.left-header {
+    display:flex;
+    width:55%;
+    justify-content: space-between;
+} 
+
+.left-header nav {
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header a {
+    text-decoration: none;
+    color:var(--dark-gray-blue);
+    font-size: 1.2em;
+}
+.left-header img {
+    width:26%;
+    height: auto;
+    object-fit: contain;
+    margin-right:50px;
+}
+
+.right-header {
+    display:flex;
+    width:12%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header img {
+    height:30%;
+    width:auto;
+}
+
+#avatar{
+    height: 60%;
+    width:auto;
+}
+
+
+main {
+    width: 85%;
+    margin:0 auto;
+    display:flex;
+    padding:8% 5%;
+    justify-content:space-evenly;
+}
+
+.left-main {
+    width:50%;
+    height: auto;
+    overflow: hidden;
+}
+
+.right-main {
+    width:50%;
+    height: auto;
+    margin:0 auto;
+    overflow: hidden;
+    text-align: center;
+}
