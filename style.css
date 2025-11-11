@@ -12,6 +12,7 @@ body {
     margin:0;
     padding:0;
     font-size:16px;
+    box-sizing: border-box;
 }
 
 header {
@@ -35,11 +36,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .left-header a {
     text-decoration: none;
     color:var(--dark-gray-blue);
     font-size: 1.2em;
 }
+
 .left-header img {
     width:26%;
     height: auto;
@@ -66,23 +69,69 @@ header {
 
 
 main {
-    width: 85%;
+    width: 80%;
     margin:0 auto;
     display:flex;
-    padding:8% 5%;
+    padding:1% 2%;
     justify-content:space-evenly;
 }
 
 .left-main {
-    width:50%;
+    width:43%;
     height: auto;
-    overflow: hidden;
+    margin:1% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-main img {
+    width:88%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width:88%;
+}
+.images img {
+    width:20%;
+    height: auto;
 }
 
 .right-main {
     width:50%;
     height: auto;
     margin:0 auto;
-    overflow: hidden;
-    text-align: center;
+}
+
+.right-main h1 {
+    font-size:1.5em;
+    margin:8% 0 0 0;
+    color:var(--dark-gray-blue)
+}
+
+.right-main h2 {
+    font-size: 4em;
+    margin:-0.5% 0 3% 0;
+}
+
+.right-main p {
+    font-size:1.7em;
+    display:inline-block;
+}
+
+.right-main .count {
+    display:inline-block;
+    border: 1px solid black;
+}
+#menu {
+    position: absolute;
+    top:0;
+    left:5px;
+    width:30px;
+    display: none;
 }
