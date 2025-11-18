@@ -33,10 +33,10 @@
       <div class="container">
         <img src="images/image-product-1.jpg" alt="main-image" id="main-image">
         <div class="images">
-          <img src="images/image-product-1-thumbnail.jpg" alt="image-1">
-          <img src="images/image-product-2-thumbnail.jpg" alt="image-2">
-          <img src="images/image-product-3-thumbnail.jpg" alt="images-3">
-          <img src="images/image-product-4-thumbnail.jpg" alt="image-4">
+          <div><img src="images/image-product-1.jpg" alt="image-1"></div>
+          <div><img src="images/image-product-2.jpg" alt="image-2"></div>
+          <div><img src="images/image-product-3.jpg" alt="image-3"></div>
+          <div><img src="images/image-product-4.jpg" alt="image-4"></div>
         </div>
       </div>
     </div>
@@ -45,16 +45,18 @@
       <h2>Fall Limited Edition Sneakers</h2>
       <p class="description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
       <p><span class="discount-price">$125.00</span><span class="discount">50%</span></p>
-      <p class="price">$250.00</p><br>
-      <div class="count">
-        <button id="minus">-</button>
-        <p>0</p>
-        <button id="plus">+</button>
+      <p class="price">$250.00</p>
+      <div class="bottom-container">
+        <div class="count">
+          <img src="images/icon-minus.svg" alt="minus" id="minus">
+          <span>0</span>
+          <img src="images/icon-plus.svg" alt="plus" id="plus">
+        </div>
+        <button id="add-to-cart">
+          <img src="images/icon-cart.svg" alt="cart">
+          <span>Add to cart</span>
+        </button>
       </div>
-      <button class="add-to-cart">
-        <img src="images/icon-cart.svg" alt="cart">
-        Add to cart
-      </button>
     </div>
   </main>
   <img src="images/icon-menu.svg" alt="menu" id="menu">
